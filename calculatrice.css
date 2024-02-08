@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+#app{
+    background-color: #1c1c1c;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+.row{
+    display: flex;
+    height: 100px;
+}
+input[type="text"] ,button{
+    flex: 1;
+    height: 100px;
+    width: 400px; ;
+    border: none;
+    outline: none;
+    color: white;
+}
+input[type="text"]{
+    background-color: #2d2d2d;
+    font-size: 1.9em;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+button{
+    background-color: #1c1c1c;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #222020;
+    cursor: pointer;
+}
+.special:hover{
+    background-color:rgb(255, 170, 0); 
+}
+.special2{
+flex: 2;
+}
+.special3:hover{
+    background-color:rgb(87, 86, 83);
+}
+

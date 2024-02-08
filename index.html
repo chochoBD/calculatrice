@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatrice</title>
+    <link rel="stylesheet" href="calculatrice.css">
+    
+</head>
+<body >
+    <div id="app" >
+        <div>
+            <input type="text" id="input">
+        <div>
+
+        <div class="row">
+            <button onclick="ClearInput()" class="special3">C</button>
+            <button onclick="" class="special3">+/-</button>
+            <button onclick="display('%')"  class="special3" >%</button>
+            <button onclick="display('/')" class="special">/</button>
+        </div>
+
+        <div class="row">
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*')" class="special" >x</button>
+        </div>
+
+        <div class="row">
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button  onclick="display('-')" class="special">-</button>
+        </div>
+
+        <div class="row">
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')" >2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')" class="special">+</button>
+        </div>
+
+        <div class="row">
+            <button onclick="display('0')" class="special2">0</button>
+            <button onclick="display('.')" >,</button>
+            <button onclick="calculate()" class="special">=</button>
+            
+        </div>
+    </div>
+    <script src="calculatrice.js"></script>
+</body>
+</html>
